@@ -8,6 +8,63 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  
+  <!-- RATING STATE CARD -->
+  <section class="card">
+    <img src="images/icon-star.svg" alt="Star-icon" class="card_img">
+    <!-- TEXT -->
+    <div class="card_text-container">
+      <h1 class="text-container_title">How did we do?</h1>
+      <p class="text-container_paragraph">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+    </div>
+    <!-- FORM -->
+    <form method="post" class="card_form">
+      <fieldset class="form_num-container">
+        <!-- num 1 -->
+        <input type="radio" name="num" id="num-1" class="num-container_number">
+        <label for="num-1" class="num-container_label">1</label>
+        <!-- num 2 -->
+        <input type="radio" name="num" id="num-2" class="num-container_number">
+        <label for="num-2" class="num-container_label">2</label>
+        <!-- num 3 -->
+        <input type="radio" name="num" id="num-3" class="num-container_number">
+        <label for="num-3" class="num-container_label">3</label>
+        <!-- num 4 -->
+        <input type="radio" name="num" id="num-4" class="num-container_number">
+        <label for="num-4" class="num-container_label">4</label>
+        <!-- num 5 -->
+        <input type="radio" name="num" id="num-5" class="num-container_number">
+        <label for="num-5" class="num-container_label">5</label>
+      </fieldset>
+      <button class="form_button" type="submit">SUBMIT</button>
+    </form>
+  </section>
+  <!-- THANKS STATE CARD -->
+  <section class="thx-card">
+    <img src="images/illustration-thank-you.svg" alt="Phone image" class="thx-card_img">
+    <!-- SELECTED RATING -->
+    <p class="thx-card_selected-rating-p"> 
+      You selected
+      <span class="selected-rating-p_span">
+
+      </span>
+      out of 5
+    </p>
+    <!-- TEXT -->
+    <div class="thx-card_text-container">
+      <h1 class="thx-card_title">Thank you!</h1>
+      <p class="thx-card_paragraph">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!
+      </p>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io/?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tomás Gaitán</a>.
+  </footer>
 </body>
 </html>
