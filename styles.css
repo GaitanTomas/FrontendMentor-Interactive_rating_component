@@ -5,15 +5,15 @@
 :root{
     /* FONT */
     --Font: "Overpass", sans-serif;
-    --Small-Font: 400;
-    --Big-font: 700;
+    --Light-Font: 400;
+    --Bold-Font: 700;
     /* COLORS */
     --Primary: hsl(25, 97%, 53%);
     --Secondary: hsl(0, 0%, 100%);
     --Background: hsl(216, 12%, 8%);
-    --Light-grey: hsl(217, 12%, 63%);
-    --Medium-grey: hsl(216, 12%, 54%);
-    --hover: hsl(213, 19%, 18%);
+    --Card-bg: radial-gradient(98.96% 98.96% at 50% 0%, rgb(35, 42, 52) 0%, rgb(24, 30, 39) 100%);
+    --Circle-bg: hsl(213, 19%, 18%);
+    --Text-and-hover: hsl(217, 12%, 63%);
 }
 
 /* ------------RESET------------ */
