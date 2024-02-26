@@ -1,0 +1,33 @@
+/* ------------FONTS------------ */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ------------VARIABLES------------ */
+:root{
+    /* FONT */
+    --Font: "Overpass", sans-serif;
+    --Small-Font: 400;
+    --Big-font: 700;
+    /* COLORS */
+    --Primary: hsl(25, 97%, 53%);
+    --Secondary: hsl(0, 0%, 100%);
+    --Background: hsl(216, 12%, 8%);
+    --Light-grey: hsl(217, 12%, 63%);
+    --Medium-grey: hsl(216, 12%, 54%);
+    --hover: hsl(213, 19%, 18%);
+}
+
+/* ------------RESET------------ */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-family: var(--Font);
+    font-size: 16px;
+}
+
+/* ------------BODY------------ */
